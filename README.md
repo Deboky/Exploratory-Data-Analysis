@@ -1,7 +1,7 @@
 # Exploratory Data Analysis
 
 ## Overview
-This project focuses on visualizing various aspects of a dataset provided as part of this coursework. The dataset encapsulates different characteristics which include correlations, seasonal behavior, and outliers. This README outlines the methodology and insights from the visual exploration aimed at understanding the dynamics of customer visits across stores with varying footfall.
+This project focuses on visualizing various aspects of a dataset provided. The dataset encapsulates different characteristics which include correlations, seasonal behavior, and outliers. This README outlines the methodology and insights from the visual exploration aimed at understanding the dynamics of customer visits across stores with varying footfall.
 
 ## Visualization Breakdown
 
