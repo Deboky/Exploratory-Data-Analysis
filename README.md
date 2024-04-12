@@ -1,24 +1,49 @@
-# Exploratory-Data-Analysis
-Visualisation of Dataset using various plots
-Various aspects of the data could be observed throughout the data exploration in this coursework. The 
-dataset that has been provided contains different characteristics that have been acknowledged. These are 
-correlations, seasonal behavior, outliers. As the company is interested in the stores having a higher and 
-medium number of customers, the visualisations provided contain the characteristics of the stores with a 
-higher and medium number of customers. Thus, dividing the dataset into high, medium, low, and very low 
-helped to understand the stores better. Different plots have different advantages over the other, which 
-imparts several meanings associated with the dataset. The first visualisation contains a line plot that conveys
-the stores' segmentation based on the number of customer visits. The second visualisation deals with the 
-trendlines for a medium number of customers, which gives the idea about the increase or decrease of 
-customer visits throughout the year. Next, the box plot's addition gives a clear picture about distribution 
-and outliers for the stores with a higher number of customers. Then, overlaid Radar plot has been added 
-that gives the idea about the summary data for stores with a higher number of customers. To understand the 
-correlation among the summary data, the radar plot has been included. To check for seasonal behavior of 
-the stores, autocorrelation has been introduced. Lastly, the two interactive plots containing histogram and 
-bubble plot were added to investigate the stores with a high and medium number of customers.
-While exploring the dataset, I have found an exciting aspect of stores with a very low number of customers. 
-Store “ZMS” shows negative linearity, which means the number of customers in that store decreased 
-throughout the year linearly. There is thus a possibility of closing that store. On the other hand, stores 
-"NMO","AEI","NGB","YYO","ZSD","MAJ" shows positive trendlines. At the starting of the year, there 
-was very a smaller number of customers but gradually the number of customers increased. This could be 
-possible because of various reasons such as store marketing, the introduction of popular products, sales, 
-etc
+# Exploratory Data Analysis
+
+## Overview
+This project focuses on visualizing various aspects of a dataset provided as part of this coursework. The dataset encapsulates different characteristics which include correlations, seasonal behavior, and outliers. This README outlines the methodology and insights from the visual exploration aimed at understanding the dynamics of customer visits across stores with varying footfall.
+
+## Visualization Breakdown
+
+### Dataset Segmentation
+The dataset is categorized into four segments based on the volume of customer traffic:
+- **High**
+- **Medium**
+- **Low**
+- **Very Low**
+
+These categories help to focus our analysis on stores with higher and medium customer traffic as per the company's interest.
+
+### Visualization Techniques and Insights
+
+1. **Line Plot**
+   - Provides a segmentation of stores based on the number of customer visits.
+   - This initial visualization sets the stage for a detailed analysis by highlighting the stores under consideration.
+
+2. **Trendlines**
+   - These plots are crucial for understanding the dynamics in customer visits over the year, particularly for stores with a medium volume of traffic.
+
+3. **Box Plot**
+   - Offers insights into distribution and identifies outliers specifically for stores with a high number of customers, facilitating targeted strategic decisions.
+
+4. **Radar Plot**
+   - An overlaid radar plot that summarizes data for stores with high customer footfall, providing a comparative perspective on key metrics.
+
+5. **Autocorrelation**
+   - Evaluates seasonal patterns in customer visits, aiding in the anticipation of peak periods.
+
+6. **Interactive Visualizations**
+   - Includes an interactive histogram and bubble plot that allow deeper investigation into the characteristics of stores with high and medium customer traffic.
+
+### Key Observations
+
+- **Store ZMS**
+  - Exhibits a negative linear trend, with customer numbers decreasing throughout the year, suggesting a potential closure consideration.
+
+- **Stores with Positive Trends**
+  - Stores such as "NMO", "AEI", "NGB", "YYO", "ZSD", "MAJ" show positive trendlines. Initially, these stores had fewer customers, but experienced a gradual increase, likely influenced by effective marketing, the introduction of popular products, and strategic sales events.
+
+## Conclusion
+
+The exploratory data analysis provided here reveals critical insights into customer behavior and store performance, serving as a foundation for strategic decision-making. Further analysis could extend these observations with predictive modeling to forecast future trends.
+
